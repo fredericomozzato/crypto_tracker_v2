@@ -24,7 +24,7 @@ module CryptoTrackerV2
                        routing_specs: false,
                        controller_specs: false,
                        requests_specs: false
-      # g.fixture_replacement :factory_bot, dir: "spec/factories"
+      g.fixture_replacement :factory_bot, dir: "spec/factories"
     end
 
     # Configuration for the application, engines, and railties goes here.
