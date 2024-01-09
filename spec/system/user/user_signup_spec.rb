@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 describe 'User visits the sign up page' do # rubocop:disable Metrics/BlockLength
-  it 'from the navbar and views the menu' do
+  it 'from the navbar and views the form' do
     visit root_path
     within '#navbar' do
       click_on 'Log in'
